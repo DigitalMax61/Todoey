@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -75,7 +74,7 @@
             </objects>
             <point key="canvasLocation" x="41" y="134"/>
         </scene>
-        <!--Todoy-->
+        <!--Todoey-->
         <scene sceneID="SwZ-iz-TgG">
             <objects>
                 <tableViewController id="4ig-qq-4jF" customClass="CaregoryViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,7 +97,7 @@
                             <outlet property="delegate" destination="4ig-qq-4jF" id="c3Y-nd-Evs"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoy" id="wWn-GM-nxy">
+                    <navigationItem key="navigationItem" title="Todoey" id="wWn-GM-nxy">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="tKt-eg-lTK">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
